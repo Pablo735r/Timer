@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		6E5CBEE42B6EF78C00930BCF /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBEE32B6EF78C00930BCF /* TimerApp.swift */; };
-		6E5CBEE62B6EF78C00930BCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBEE52B6EF78C00930BCF /* ContentView.swift */; };
+		6E5CBEE62B6EF78C00930BCF /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBEE52B6EF78C00930BCF /* TimerView.swift */; };
 		6E5CBEE82B6EF78D00930BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5CBEE72B6EF78D00930BCF /* Assets.xcassets */; };
 		6E5CBEEB2B6EF78D00930BCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5CBEEA2B6EF78D00930BCF /* Preview Assets.xcassets */; };
+		6E5CBEF52B6EF80400930BCF /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBEF42B6EF80400930BCF /* TimerModel.swift */; };
+		6E5CBEF72B6EF83600930BCF /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBEF62B6EF83600930BCF /* TimerViewModel.swift */; };
+		6E5CBEFA2B6EF8A400930BCF /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBEF92B6EF8A400930BCF /* ButtonView.swift */; };
+		6E5CBEFC2B6EF8C100930BCF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBEFB2B6EF8C100930BCF /* CircleView.swift */; };
+		6E5CBEFE2B6EF90400930BCF /* TimerButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBEFD2B6EF90400930BCF /* TimerButtons.swift */; };
+		6E5CBF072B6F06ED00930BCF /* SelectTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBF062B6F06ED00930BCF /* SelectTimeView.swift */; };
+		6E5CBF092B6F083700930BCF /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CBF082B6F083700930BCF /* PickerView.swift */; };
+		6E5CBF0B2B6F0CA100930BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5CBF0A2B6F0CA100930BCF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E5CBEE02B6EF78C00930BCF /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5CBEE32B6EF78C00930BCF /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
-		6E5CBEE52B6EF78C00930BCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E5CBEE52B6EF78C00930BCF /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		6E5CBEE72B6EF78D00930BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E5CBEEA2B6EF78D00930BCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E5CBEF42B6EF80400930BCF /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		6E5CBEF62B6EF83600930BCF /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		6E5CBEF92B6EF8A400930BCF /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		6E5CBEFB2B6EF8C100930BCF /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		6E5CBEFD2B6EF90400930BCF /* TimerButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButtons.swift; sourceTree = "<group>"; };
+		6E5CBF062B6F06ED00930BCF /* SelectTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeView.swift; sourceTree = "<group>"; };
+		6E5CBF082B6F083700930BCF /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		6E5CBF0A2B6F0CA100930BCF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,11 @@
 		6E5CBEE22B6EF78C00930BCF /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				6E5CBEF32B6EF7E800930BCF /* Model */,
+				6E5CBEF22B6EF7E100930BCF /* View */,
+				6E5CBEF12B6EF7CC00930BCF /* ViewModel */,
+				6E5CBF022B6EFAC300930BCF /* LaunchScreen */,
 				6E5CBEE32B6EF78C00930BCF /* TimerApp.swift */,
-				6E5CBEE52B6EF78C00930BCF /* ContentView.swift */,
 				6E5CBEE72B6EF78D00930BCF /* Assets.xcassets */,
 				6E5CBEE92B6EF78D00930BCF /* Preview Content */,
 			);
@@ -65,6 +84,59 @@
 				6E5CBEEA2B6EF78D00930BCF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E5CBEF12B6EF7CC00930BCF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CBEF62B6EF83600930BCF /* TimerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6E5CBEF22B6EF7E100930BCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CBF052B6F06D100930BCF /* Screens */,
+				6E5CBEF82B6EF87700930BCF /* Button */,
+				6E5CBEFB2B6EF8C100930BCF /* CircleView.swift */,
+				6E5CBEE52B6EF78C00930BCF /* TimerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E5CBEF32B6EF7E800930BCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CBEF42B6EF80400930BCF /* TimerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E5CBEF82B6EF87700930BCF /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CBEF92B6EF8A400930BCF /* ButtonView.swift */,
+				6E5CBEFD2B6EF90400930BCF /* TimerButtons.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		6E5CBF022B6EFAC300930BCF /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CBF0A2B6F0CA100930BCF /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		6E5CBF052B6F06D100930BCF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CBF062B6F06ED00930BCF /* SelectTimeView.swift */,
+				6E5CBF082B6F083700930BCF /* PickerView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5CBF0B2B6F0CA100930BCF /* LaunchScreen.storyboard in Resources */,
 				6E5CBEEB2B6EF78D00930BCF /* Preview Assets.xcassets in Resources */,
 				6E5CBEE82B6EF78D00930BCF /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +210,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5CBEE62B6EF78C00930BCF /* ContentView.swift in Sources */,
+				6E5CBEFC2B6EF8C100930BCF /* CircleView.swift in Sources */,
+				6E5CBF072B6F06ED00930BCF /* SelectTimeView.swift in Sources */,
+				6E5CBF092B6F083700930BCF /* PickerView.swift in Sources */,
+				6E5CBEFE2B6EF90400930BCF /* TimerButtons.swift in Sources */,
+				6E5CBEF72B6EF83600930BCF /* TimerViewModel.swift in Sources */,
+				6E5CBEF52B6EF80400930BCF /* TimerModel.swift in Sources */,
+				6E5CBEFA2B6EF8A400930BCF /* ButtonView.swift in Sources */,
+				6E5CBEE62B6EF78C00930BCF /* TimerView.swift in Sources */,
 				6E5CBEE42B6EF78C00930BCF /* TimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,11 +355,13 @@
 				DEVELOPMENT_TEAM = 2C52VF256K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +369,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Pablo-Amador.Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +390,13 @@
 				DEVELOPMENT_TEAM = 2C52VF256K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +404,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Pablo-Amador.Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
